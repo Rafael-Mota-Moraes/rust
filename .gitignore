@@ -1,0 +1,27 @@
+# Ignore build artifacts
+*/target/
+
+# Ignore Cargo.lock if you are developing a library
+# (not applicable for binaries)
+Cargo.lock
+
+# Ignore editor directories and files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Rust test output
+*.d
+*.o
+*.so
+*.a
+*.rlib
+*.dylib
+*.exe
+*.dll
+
+# Ignore backup files
+*~
