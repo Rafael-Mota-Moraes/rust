@@ -1,8 +1,8 @@
 const UMA_HORA_EM_SEGUNDOS: i32 = 1 * 60 * 60;
 
 fn main() {
-    const UMA_HORA_EM_SEGUNDOS: i32 = 1 * 60 * 60; // Escopo interno, sobrescreve o escopo externo
-                                                   // Variáveis e mutabilidade
+    // const UMA_HORA_EM_SEGUNDOS: i32 = 1 * 60 * 60; // Escopo interno, sobrescreve o escopo externo
+    // Variáveis e mutabilidade
     println!("Inicio do programa");
     let x = 5;
     println!("O valor de x é: {x}");
