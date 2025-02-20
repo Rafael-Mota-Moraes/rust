@@ -1,5 +1,6 @@
 # Ignore build artifacts
 */*/target/
+*/target/
 
 # Ignore Cargo.lock if you are developing a library
 # (not applicable for binaries)
